@@ -1,0 +1,67 @@
+.bgn{
+  background: url('flights.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+.head{
+  font-size: 60px;
+  margin-top: 30px;
+  text-align: center;
+  text-shadow:2px 2px grey;
+}
+.cls{ 
+  float: left;
+  list-style-type: none;
+  width: 1300px;
+  background:rgba(12, 12, 12, 0.801);
+}
+.text{
+  display:flex;
+  margin: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bt1 a{
+  float: left;
+  padding: 10px;
+  margin: 20px;
+  color: aliceblue;
+  background: transparent;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bt2 a{
+  float: left;
+  color: aliceblue;
+  margin: 20px;
+  padding: 10px;
+  background: transparent;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bt2:hover{
+  background-color: rgb(7, 7, 8);
+}
+.bt3 a{
+  float: left;
+  color: aliceblue;
+  margin: 20px;
+  padding: 10px;
+  background: transparent;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bt4{
+  float: right;
+  color: aliceblue;
+  margin: 20px;
+  padding: 10px;
+  background: transparent;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer{
+  background:rgb(12, 12, 12);
+  height: 15%;
+  text-align: center;
+  color: aliceblue;
+  padding: 20px;
+}

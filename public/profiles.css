@@ -1,0 +1,120 @@
+.h1{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 30px;
+}
+.bod{
+  background: url('flights.jpg');
+}
+.ques{
+  overflow: scroll;
+  width:500px;
+  height: 50px;
+  font-size: 20px;
+  border:1px solid;
+}
+.que{
+  margin-left: 400px;
+  font-size: 30px;
+}
+.ans{
+  overflow: scroll;
+  width:500px;
+  font-size: 20px;
+  height: 50px;
+  border:1px solid;
+}
+.an{
+  margin-top: 20PX;
+  margin-left:400px;
+  font-size: 30px;
+}
+.dv{
+  display: grid;
+  margin-top:50px;
+  grid-template-columns:repeat(4,300px);
+  grid-template-rows: repeat(2,minmax(300px,auto));
+  grid-gap: 30px;
+  margin-left: 120px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.d1{
+  border:1px solid;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  background:rgb(47, 46, 48);
+  color:#dbdbdb;
+  opacity:0.8;
+   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.733),0 6px 20px 0 rgba(0, 0, 0, 0.753);
+}
+.d1:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.d2:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.d3:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.d4:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white; 
+  transform: rotateY(180deg);
+}
+.d2{
+  grid-column: 3/4;
+  border: 1px solid;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  background:rgb(47, 46, 48);
+  color:#dbdbdb;
+  opacity: 0.8;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.733),0 6px 20px 0 rgba(0, 0, 0, 0.753);
+
+}
+.d3{
+  grid-column: 1/2;
+  border: 1px solid;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  background: rgb(47, 46, 48);
+  color:#dbdbdb;
+  opacity: 0.8;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.733),0 6px 20px 0 rgba(0, 0, 0, 0.753);
+
+}
+.d4{
+  grid-column: 3/4;
+  border: 1px solid;
+  text-align: center;
+  opacity: 0.8;
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  background: rgb(47, 46, 48);
+  color:#dbdbdb;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.733),0 6px 20px 0 rgba(0, 0, 0, 0.753);
+
+}

@@ -1,0 +1,67 @@
+.wrap{
+  display: grid;
+  grid-template-columns: repeat(5,50vh);
+  grid-template-rows: repeat(10,minmax(50px,auto));
+  grid-gap: 10px;
+  align-content: center;
+  background-repeat: no-repeat;
+ }
+ .bod{
+  background:url('flights.jpg');
+ }
+.login{
+  grid-column: 3;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.733),0 6px 20px 0 rgba(0, 0, 0, 0.753);
+  grid-row: 3/10;
+  border: solid;
+  border-width: 2px;
+  display: grid;
+  grid-template-columns:repeat(4,10vh);
+  grid-template-rows: repeat(6,minmax(10px,auto));
+  grid-gap: 15px;
+}
+
+.email{
+  margin-top: 20px;
+  grid-column:1/5;
+  grid-row: 1;
+  border:none;
+  outline: none;
+  box-shadow: none;
+  margin-left: 20px;
+}
+.phno{
+  grid-column: 1/5;
+  grid-row: 3/4;
+  border:none;
+  outline: none;
+  box-shadow: none;
+  margin-left: 20px;
+}
+.btn{
+  grid-column: 2/4;
+  border:none;
+  outline: none;
+  box-shadow: none;
+  grid-row: 5/6;
+  margin-top: 30px;
+  color:whitesmoke;
+  background-color:grey;
+  font-size: 18px;
+}
+.brn{
+  grid-column: 1/5;
+  grid-row: 2;
+  border:none;
+  outline: none;
+  box-shadow: none;
+  margin-left: 20px;
+}
+.sec{
+  grid-column: 1/5;
+  grid-row: 4/5;
+  border:none;
+  outline: none;
+  box-shadow: none;
+  margin-left: 20px;
+}

@@ -1,0 +1,37 @@
+
+<html>
+  <head>
+      <title>login</title>
+      <link rel="stylesheet" href="register.css">
+  </head>
+  <body class="bod">
+    <div class="wrap"> 
+      <form action="/profiles" method="post" class="login">
+      
+       
+        <div class="email">
+            <label for="exampleInputPassword2">Mail-id :</label>
+            <input type="email"  name='mid' placeholder="Enter email" required>
+          </div>
+          <div class="phno">
+            <label for="exampleInputPassword3">Mobile.no :</label>
+            <input type="text" class="form-control" id="exampleInputPassword3" name='ph' placeholder="Enter mobile no" required>
+          </div>
+           
+        <div class="brn">
+            <label for="exampleInputPassword4">ID:</label>
+            <input type="text" class="form-control" id="exampleInputPassword4" name="id" placeholder="Enter id" required>
+          </div>
+          <div class="sec">
+            <label for="exampleFormControlSelect1">Type</label>
+              <select name="select" class="form-control" id="exampleFormControlSelect1">
+                <option value="1">passenger</option>
+                <option value="2">Staff</option>
+              </select>
+            </div>
+            
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+    </body>
+  </html>
